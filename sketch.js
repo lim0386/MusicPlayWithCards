@@ -264,9 +264,9 @@ function setup() {
   button8.stroke = "#000000";
   button8.color = "#000000";
   button8.onPress = function () {
-    yelash01.stop();
-    Eyelash04.stop();
-    Eyelash06.stop();
+    // Eyelash01.stop();
+    // Eyelash04.stop();
+    // Eyelash06.stop();
 
     // Eyelash01.play();
     // Eyelash04.play();
@@ -294,9 +294,9 @@ function setup() {
   button9.stroke = "#000000";
   button9.color = "#000000";
   button9.onPress = function () {
-    Eyelash02.stop();
-    Eyelash05.stop();
-    Eyelash07.stop();
+    // Eyelash02.stop();
+    // Eyelash05.stop();
+    // Eyelash07.stop();
 
     
 
@@ -323,9 +323,9 @@ function setup() {
   button10.stroke = "#000000";
   button10.color = "#000000";
   button10.onPress = function () {
-    Eyelash02.stop();
-    Eyelash05.stop();
-    Eyelash06.stop();
+    // Eyelash02.stop();
+    // Eyelash05.stop();
+    // Eyelash06.stop();
 
    
 
