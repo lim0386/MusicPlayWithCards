@@ -72,13 +72,13 @@ function preload() {
   band06 = loadSound('band/BandChord01.mp3');
   band07 = loadSound('band/BandChord02.mp3');
 
-  eyelash01 = loadSound('Eyelash/EyelashBeat01.mp3');
-  eyelash02 = loadSound('Eyelash/EyelashBeat02.mp3');
-  eyelash03 = loadSound('Eyelash/EyelashBeat03.mp3');
-  eyelash04 = loadSound('Eyelash/EyelashChord01.mp3');
-  eyelash05 = loadSound('Eyelash/EyelashChord02.mp3');
-  eyelash06 = loadSound('Eyelash/EyelashMelody01.mp3');
-  eyelash07 = loadSound('Eyelash/EyelashMelody02.mp3');
+  Eyelash01 = loadSound('Eyelash/EyelashBeat01.mp3');
+  Eyelash02 = loadSound('Eyelash/EyelashBeat02.mp3');
+  Eyelash03 = loadSound('Eyelash/EyelashBeat03.mp3');
+  Eyelash04 = loadSound('Eyelash/EyelashChord01.mp3');
+  Eyelash05 = loadSound('Eyelash/EyelashChord02.mp3');
+  Eyelash06 = loadSound('Eyelash/EyelashMelody01.mp3');
+  Eyelash07 = loadSound('Eyelash/EyelashMelody02.mp3');
 
   kpop01 = loadSound('kpop01/Kpop1Beat01.mp3');
   kpop02 = loadSound('kpop01/Kpop1Beat02.mp3');
