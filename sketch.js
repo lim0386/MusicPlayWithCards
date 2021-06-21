@@ -105,6 +105,8 @@ let button6;
 let button7;
 let button8;
 let button9;
+let button10;
+let button11;
 
   classifier = ml5.imageClassifier(imageModelURL + 'model.json');
 
@@ -419,6 +421,8 @@ function draw() {
   button8.draw();
   button9.draw();
   button10.draw();
+  button11.draw();
+
   // switch(song){
   //   case 0:
   // background(0);
