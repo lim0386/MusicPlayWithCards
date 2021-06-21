@@ -94,7 +94,7 @@ function preload() {
   sf04 = loadSound('sf/SynthFunkGuitar01.mp3');
   sf05 = loadSound('sf/SynthFunkGuitar02.mp3');
   sf06 = loadSound('sf/SynthFunkMelody01.mp3');
-  sf07 = loadSound('sf/SynthFunkMElody02.mp3');
+  sf07 = loadSound('sf/SynthFunkMelody02.mp3');
   
 let button1;
 let button2;
