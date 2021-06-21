@@ -268,9 +268,9 @@ function setup() {
     Eyelash04.stop();
     Eyelash06.stop();
 
-    Eyelash01.play();
-    Eyelash04.play();
-    Eyelash06.play();
+    // Eyelash01.play();
+    // Eyelash04.play();
+    // Eyelash06.play();
 
     // Eyelash01.stop();
   Eyelash02.stop();
@@ -280,6 +280,11 @@ function setup() {
   // Eyelash06.stop();
   Eyelash07.stop();
   }; 
+  button8.onRelease = function () {
+    Eyelash01.play();
+    Eyelash04.play();
+    Eyelash06.play();
+  };
 
   button9 = new Clickable();
   button9.locate(260, 20);
@@ -293,9 +298,7 @@ function setup() {
     Eyelash05.stop();
     Eyelash07.stop();
 
-    Eyelash02.play();
-    Eyelash05.play();
-    Eyelash07.play();
+    
 
     Eyelash01.stop();
   // Eyelash02.stop();
@@ -305,6 +308,12 @@ function setup() {
   Eyelash06.stop();
   // Eyelash07.stop();
   }; 
+  button9.onRelease = function () {
+
+    Eyelash02.play();
+    Eyelash05.play();
+    Eyelash07.play();
+  };
 
   button10 = new Clickable();
   button10.locate(290, 20);
@@ -318,9 +327,7 @@ function setup() {
     Eyelash05.stop();
     Eyelash06.stop();
 
-    Eyelash02.play();
-    Eyelash05.play();
-    Eyelash06.play();
+   
 
     Eyelash01.stop();
   // Eyelash02.stop();
@@ -331,6 +338,11 @@ function setup() {
   Eyelash07.stop();
   }; 
 
+  button10.onRelease = function () {
+    Eyelash02.play();
+    Eyelash05.play();
+    Eyelash06.play();
+  }
   console.log("Play");
   // citypop01.play();
   // citypop02.play();
