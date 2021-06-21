@@ -343,6 +343,29 @@ function setup() {
     Eyelash05.play();
     Eyelash06.play();
   }
+
+  button11 = new Clickable();
+  button11.locate(320, 20);
+  button11.width = 50;
+  button11.height = 20;
+  button11.text = "off";
+  // button11.stroke = "#000000";
+  // button11.color = "#000000";
+  button11.onPress = function () {
+    // Eyelash02.stop();
+    // Eyelash05.stop();
+    // Eyelash06.stop();
+
+   
+
+    Eyelash01.stop();
+  Eyelash02.stop();
+  Eyelash03.stop();
+  Eyelash04.stop();
+  Eyelash05.stop();
+  Eyelash06.stop();
+  Eyelash07.stop();
+  }; 
   console.log("Play");
   // citypop01.play();
   // citypop02.play();
